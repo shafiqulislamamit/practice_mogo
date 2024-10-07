@@ -1,0 +1,1358 @@
+*{
+    margin: 0;
+    padding: 0;
+    outline: 0;
+}
+a{
+    text-decoration: none;
+}
+ul,ol{
+    list-style-type: none;
+}
+img{
+    vertical-align: middle;
+}
+.clr{
+    clear: both;
+}
+.full-wrapper{
+    width: 100%;
+}
+.wrapper{
+    width: 1200px;
+    margin: 0 auto;
+}
+/*======================  preloader part css   ======================*/
+
+/*======================  header part css   ======================*/
+
+
+.logo{
+    width: 200px;
+    padding-top: 28px;
+    padding-bottom: 30px;
+    float: left;
+}
+
+.menu{
+    width: 1000px;
+    padding-top: 36px;
+    padding-bottom: 22px;
+    float: left;
+    text-align: right;
+}
+.menu ul li {
+    display: inline-block;
+}
+
+.menu ul li a{
+    padding: 0 25px;
+    font-size: 14px;
+    font-weight: 400;
+    font-family: 'Montserrat', sans-serif;
+    text-transform: uppercase; 
+    color: #fff;
+    padding-bottom: 12px;
+    transition: all linear .3s;
+   
+    
+}
+.menu ul li a:hover{
+     color:   #fce38a;
+     border-bottom: 3px solid #fce38a;
+     
+}
+.header-bg{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 9999;
+    transition: all liner 0.3s;
+}
+.bg{
+    background: #f19d82;
+    animation: menu 1s;
+}
+@keyframes menu{
+    from{
+        top: -50px;
+    }
+    to{
+        top: 0;
+    }
+}
+/*======================  banner part css   ======================*/
+.banner-bg{
+    background: url(../images/banner.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-top: 238px;
+    padding-bottom: 244px;
+    position: relative;
+}
+.banner-content{
+    text-align: center;
+}
+.banner-content h2{
+    font-size: 72px;
+    font-weight: 400;
+    color: #ffff;
+    font-family: 'Kaushan Script', cursive;
+    padding-bottom: 45px;
+}
+.banner-content h1{
+   font-size: 150px;
+    font-weight: 700;
+    color: #fff;
+    font-family: 'Montserrat', sans-serif;
+    line-height: 140px;
+    padding: 0 126px; 
+    text-transform: uppercase;
+    position: relative;
+    padding-bottom: 71px;
+}
+
+.banner-content h1:after{
+    position: absolute;
+    content: '';
+    height: 3px;
+    width: 60px;
+    bottom: 0;
+    left: 48%;
+    background: #fff;
+    
+}
+.banner-btn {
+    text-align: center;
+    padding-top: 64px;
+}
+.banner-btn a{
+    font-size: 14px;
+    font-weight: 700;
+    font-family: 'Montserrat', sans-serif;
+    color: #fff;
+    text-transform: uppercase;
+    border: 3px solid #fff;
+    padding: 12px 30px;
+    transition: all linear .3s;
+    
+}
+.banner-btn a:hover{
+    background:   #fce38a;
+    border:  #fce38a;
+}
+/*======================  about part css   ======================*/
+.about-bg{
+    padding-top: 91px;
+    padding-bottom: 110px;
+}
+.about-head{
+    text-align: center;
+}
+.about-head h2{
+    font-size: 24px;
+    font-weight: 400;
+    font-family: 'Kaushan Script', cursive;
+    color: #333333;
+    padding-bottom: 7px;
+}
+.about-head h3{
+    font-size: 30px;
+    font-weight: 800;
+    font-family: 'Montserrat', sans-serif;
+    color: #333333;
+    text-transform: uppercase;
+    position: relative;
+    padding-bottom: 39px;
+}
+.about-head h3:after{
+    position: absolute;
+    content: '';
+    width: 60px;
+    height: 3px;
+    background: #f38181;
+    bottom: 0;
+    left: 48%;
+}
+
+.about-content{
+    text-align: center;
+    padding-top: 46px;
+    padding-bottom: 105px;
+}
+.about-content p{
+    font-size: 15px;
+    font-weight: 400;
+    font-family: 'Roboto', sans-serif;
+    color: #999999;
+    padding: 0 108px;
+    line-height: 25px;
+    
+}
+.gal-img{
+    width: 370px;
+    float: left;
+    position: relative;
+    margin-left: 30px;
+}
+.gal-img img{
+    width: 100%;
+}
+.gal-img .overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+     background-image: linear-gradient(#f38181, #fce38a);
+    opacity: 0;
+    text-align: center;
+    
+}
+.gal-img .overlay i{
+font-size: 24px;
+    color: #fff;
+    padding-top: 105px;
+}
+.gal-img .overlay spam{
+    display: block;
+    font-size: 18px;
+    font-weight: 700;
+    color: #fff;
+     font-family: 'Montserrat', sans-serif;
+}
+.gal-img .overlay:hover{
+         background-image: linear-gradient(#f38181, #fce38a);
+    opacity: 0.9;
+}
+
+/*====================== counter part css   ======================*/
+.counter-bg{
+   
+    background: #95e1d3;
+}
+.counter1{
+     padding: 88px 0;
+    width: 19%;
+    float: left;
+    text-align: center;
+    border-right: 1px solid #b5eae0;
+}
+
+.counter1  h2{
+    font-size: 72px;
+    font-weight: 700;
+    font-family: 'Montserrat', sans-serif;
+    color: #fff;
+    padding-bottom: 7px;
+    
+}
+.counter1 p{
+     font-size: 14px;
+    font-weight: 400;
+    font-family: 'Montserrat', sans-serif;
+    color: #fff;
+    text-transform: uppercase;
+}
+.br-0{
+    border-left: 1px solid #b5eae0;
+}
+/*======================  service  part css   ======================*/
+.service-bg{
+    padding-top: 110px;
+    padding-bottom: 77px;
+}
+.service-head {
+    text-align: center;
+}
+.service-head h2{
+    font-size: 24px;
+    font-weight: 400;
+     font-family: 'Kaushan Script', cursive;
+    color: #333333;
+    padding-bottom: 10px;
+}
+.service-head h3{
+    font-size: 30px;
+    font-weight: 700;
+    font-family: 'Montserrat', sans-serif;
+    color: #333333;
+    position: relative;
+    padding-bottom: 45px;
+    text-transform: uppercase;
+}
+.service-head h3:after{
+    position: absolute;
+    content: '';
+    bottom: 0;
+    left: 47%;
+    width: 60px;
+    height: 3px;
+    background: #f38181;
+}
+.service-menu-main{
+ border-bottom: 1px solid #e5e5e5;
+}
+.service-item{
+    width: 400px;
+    float: left;
+    padding-top: 65px;
+    padding-bottom: 51px;
+}
+.service-item  i{
+    font-size: 30px;
+    color: #95e1d3;
+    padding-left: 29px;
+
+}
+.service-item  h4{
+    font-size: 14px;
+    font-weight: 400;
+   font-family: 'Montserrat', sans-serif; 
+    color: #333333;
+    text-transform: uppercase;
+    padding-left: 24px;
+    display: inline-block;
+}
+.service-item  p{
+    font-size: 15px;
+    font-weight: 400;
+     font-family: 'Roboto', sans-serif;
+    color: #9999;
+    padding-left: 88px;
+    padding-top: 20px;
+}
+.border-0{
+    border-bottom: 0;
+}
+/*======================  design  part css   ======================*/
+.design-bg{
+    background: url(../images/design-banner.jpg);
+        background-position: center;
+        background-size: cover;
+        background-repeat: no-repeat;
+        padding-top: 108px;
+        height: 749px;
+}
+
+.design-content{
+    text-align: center;
+    padding-bottom: 48px;
+}
+.design-content h2{
+    font-family: 'Kaushan Script', cursive; 
+    font-size: 24px;
+    font-weight: 400;
+    color: #333333;
+    padding-bottom: 8px;
+}
+.design-content h3{
+     font-family: 'Montserrat', sans-serif; 
+    font-size: 30px;
+    font-weight: 700;
+    color: #333333;
+    text-transform: uppercase;
+    position: relative;
+    padding-bottom: 37px;
+}
+.design-content h3:after{
+    position: absolute;
+    content: '';
+    bottom: 0;
+    left: 47%;
+    width: 60px;
+    height: 3px;
+    background: #f38181;
+}
+.design-img img{
+    margin-left: 335px;
+  
+}
+.design-img{
+position: absolute;
+}
+.design-img2{
+    position: relative;
+    content: '';
+    left: 0;
+    top: 0;
+}
+.design-img2 img{
+    margin-left: 695px;
+    margin-top: 197px;
+}
+/*======================  do part css   ======================*/
+.do-bg{
+    padding-top: 112px;
+    padding-bottom: 120px;
+}
+.do-head {
+    text-align: center;
+}
+.do-head h2{
+    font-family: 'Kaushan Script', cursive; 
+    font-size: 24px;
+    font-weight: 400;
+    color: #333333;
+    padding-bottom: 8px;
+}
+.do-head h3{
+     font-family: 'Montserrat', sans-serif; 
+    font-size: 30px;
+    font-weight: 700;
+    color: #333333;
+    text-transform: uppercase;
+    position: relative;
+    padding-bottom: 37px;
+}
+.do-head h3:after{
+    position: absolute;
+    content: '';
+    bottom: 0;
+    left: 47%;
+    width: 60px;
+    height: 3px;
+    background: #f38181;
+}
+.do-head p{
+    font-size: 15px;
+    font-weight: 400;
+    font-family: 'Roboto', sans-serif;
+    color: #999999;
+    padding: 0 108px;
+    line-height: 25px;
+    padding-top: 46px;
+    padding-bottom: 96px;
+    
+}
+.do-img{
+    width: 50%;
+    float: left;
+}
+.do-content{
+    width: 50%;
+    float: left;
+}
+.do-photography{
+    border: 1px solid #e5e5e5;
+    
+}
+.do-content1{
+    border-bottom: 1px solid #e5e5e5;
+    width: 600px;
+    height: 60px;
+     position: relative;
+
+}
+.do-left{
+    position: absolute;
+    right: 20px; 
+    top: 50%;
+    transform: translateY(-50%);
+}
+.do-content1 img{
+    padding: 14px 0;
+    padding-left: 38px;
+}
+.do-content1 spam{
+    color: #333333;
+    font-size: 14px;
+    font-weight: 500;
+    font-family: 'Montserrat', sans-serif;
+    text-transform: uppercase;
+    padding-left: 15px;
+  
+}
+
+
+.do-content1  i{
+    color: #cccccc;
+    font-size: 20px;
+    
+}
+.do-photography p{
+    font-size: 14px;
+    font-weight: 200;
+     font-family: 'Roboto', sans-serif;
+    color: #999999;
+    padding: 0 54px;
+    padding-top: 19px;
+    padding-bottom: 27px;
+}
+
+.do-content2{
+    border: 1px solid #e5e5e5;
+    margin-top: 11px ;
+}
+.do-content2 img{
+    padding: 14px 0;
+    padding-left: 38px;
+}
+.do-content2 spam{
+    color: #333333;
+    font-size: 14px;
+    font-weight: 500;
+    font-family: 'Montserrat', sans-serif;
+    text-transform: uppercase;
+    padding-left: 15px;
+}
+
+.do-content2 i{
+    padding-left: 385px;
+    color: #cccccc;
+    font-size: 20px;
+    
+}
+.do-content3{
+    border: 1px solid #e5e5e5;
+    margin-top: 11px ;
+}
+.do-content3 img{
+    padding: 14px 0;
+    padding-left: 38px;
+}
+.do-content3 spam{
+    color: #333333;
+    font-size: 14px;
+    font-weight: 500;
+    font-family: 'Montserrat', sans-serif;
+    text-transform: uppercase;
+    padding-left: 15px;
+}
+
+.do-content3 i{
+    padding-left: 372px;
+    color: #cccccc;
+    font-size: 20px;
+    
+}
+/*======================  massege part css   ======================*/
+.massage-bg{
+    padding: 70px 0;
+    background: #f8f8f8;
+}
+.icon{
+    width:  145px;
+    height: 145px;
+    border: 2px solid #95e1d3;
+    text-align: center;
+    float: left;
+}
+.icon i {
+    line-height: 145px;
+    font-size: 60px;
+    color: #95e1d3;
+}
+.massege-middle{
+    width: 770px;
+    float: right;
+}
+
+.massege-middle p{
+    font-size: 24px;
+    font-weight: 200;
+    font-family: 'Roboto', sans-serif;
+    color: #999999;
+    font-style: italic;
+    line-height: 36px;
+}
+.content-mesg {
+    width: 980px;
+    margin: 0 auto;
+}
+
+
+.massege-middle h3{
+    font-family: 'Kaushan Script', cursive; 
+    font-size: 24px;
+    font-weight: 400;
+    color: #333333;
+    padding-left: 71px;
+    position: relative;
+    
+}
+.massege-middle h3:after{
+    position: absolute;
+    content: '';
+    top: 50%;
+    transform: translateY(-50%);
+    left: 0;
+    width: 60px;
+    height: 3px;
+    background: #f38181;
+}
+.slider-main{
+    width: 990px;
+    margin: 0 auto;
+    position: relative;
+    
+}
+.slider-main .nextarrow{
+    position: absolute;
+    top: 50%;
+    left: -70px;
+    transform: translateY(-50%);
+      font-size: 21px;
+    color: #cccccc;
+}
+.slider-main .prevearrow{
+    position: absolute;
+    top: 50%;
+    right: -70px;
+    transform: translateY(-50%);
+      font-size: 21px;
+    color: #cccccc;
+}
+/*======================  team part css   ======================*/
+.team-bg{
+    padding-top: 100px;
+    padding-bottom: 120px;
+}
+.team-head{
+    text-align: center;
+}
+.team-head h2{
+    font-size: 24px;
+    font-weight: 400;
+     font-family: 'Kaushan Script', cursive; 
+    color: #333333;
+    padding-bottom: 24px;
+    
+}
+.team-head h3{
+     font-family: 'Montserrat', sans-serif; 
+    font-size: 30px;
+    font-weight: 700;
+    color: #333333;
+    text-transform: uppercase;
+    position: relative;
+    padding-bottom: 42px;
+}
+.team-head h3:after{
+    position: absolute;
+    content: '';
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 60px;
+    height: 3px;
+    background: #f38181;
+}
+.team-content {
+    text-align: center;
+}
+.team-content p{
+    font-size: 15px;
+    font-weight: 400;
+    color: #999999;
+     font-family: 'Roboto', sans-serif;
+    line-height: 20px;
+    padding: 0 117px;
+    padding-top: 45px;
+    padding-bottom: 90px;
+    
+}
+.team-img-main{
+    float: left;
+}
+.team-img{
+    width: 370px;
+   
+    position: relative;
+    margin-left: 30px;
+    text-align: center;
+}
+.team-img img{
+    width: 100%;
+}
+.team-img .overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+     background-image: linear-gradient(#f38181, #fce38a);
+    opacity: 0;
+    
+}
+.team-img .overlay i{
+    
+    font-size: 26px;
+    background: #fce38a;
+    color: #f38181;
+    margin-top: 207px;
+  padding:   15px  20px ; 
+}
+
+.team-img:hover    .overlay  {
+         background-image: linear-gradient(#f38181, #fce38a);
+    opacity: 0.9;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+.team-text{
+    text-align: center;
+}
+.team-text h4{
+    color:#333333;
+    font-size: 14px;
+    font-weight: 400;
+    font-family: 'Montserrat', sans-serif; 
+    padding-top: 40px;
+    padding-bottom: 14px;
+    
+}
+
+.team-text h5{
+    color:#999999;
+    font-size: 15px;
+    font-weight: 200;
+    font-family: 'Roboto', sans-serif;
+   font-style: italic;
+    
+}
+
+/*======================  menu part css   ======================*/
+.brand-bg{
+    padding-top: 60px;
+    padding-bottom: 68px;
+    background: #f8f8f8;
+}
+
+/*======================  work part css   ======================*/
+.work-bg{
+    padding-top: 108px;
+}
+.work-content{
+    text-align: center;
+}
+.work-content  h2{
+    font-size: 24px;
+    font-weight: 400;
+     font-family: 'Kaushan Script', cursive; 
+    color: #333333;
+    padding-bottom: 24px;
+    
+}
+.work-content h3{
+     font-family: 'Montserrat', sans-serif; 
+    font-size: 30px;
+    font-weight: 700;
+    color: #333333;
+    text-transform: uppercase;
+    position: relative;
+    padding-bottom: 37px;
+}
+.work-content h3:after{
+    position: absolute;
+    content: '';
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 60px;
+    height: 3px;
+    background: #f38181;
+}
+.work-content p{
+    font-size: 15px;
+    font-weight: 400;
+    color: #999999;
+     font-family: 'Roboto', sans-serif;
+    line-height: 20px;
+    padding: 0 117px;
+    padding-top: 45px;
+    padding-bottom: 105px;
+    
+}
+.work-img-main{
+    float: left;
+     width: 25%;
+}
+.work-img{
+   width: 100%;
+    position: relative;
+   
+}
+.work-img img{
+    width: 100%;
+}
+.hoverlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+     background-image: linear-gradient(#f38181, #fce38a);
+    opacity:0 ;
+    text-align: center;
+  
+     transition: all linear .3s;
+
+    
+}
+.work-img .hoverlay  i{
+   padding-top: 160px;
+    top: 50%;
+    transform: translateX(-50%);
+    font-size: 32px;
+      color: #fff;
+    
+}
+.odd .hoverlay i{
+    padding-top: 320px;
+}
+.work-img .hoverlay  h4{
+    font-size: 14px;
+    font-weight: 400;
+    color: #fff; 
+         font-family: 'Montserrat', sans-serif; 
+    padding-top: 19px;
+    padding-bottom: 8px;
+}
+.work-img .hoverlay  p{
+    font-size: 15px;
+    font-weight: 200;
+    color: #fff;
+      font-family: 'Roboto', sans-serif;
+    font-style: italic;
+}
+.work-img:hover   .hoverlay{
+         background-image: linear-gradient(#f38181, #fce38a);
+    opacity: 0.9;
+
+}
+/*======================  Earle part css   ======================*/
+.earle-bg{
+    padding-top: 100px;
+    padding-bottom: 130px;
+}
+.earl-main {
+    position: relative;
+}
+.earl-main .left {
+    position: absolute;
+    left: 20px;
+    top: 50%;
+    transform: translateY(-50%);
+    font-size: 21px;
+    color: #cccccc;
+}
+.earl-main .right {
+    position: absolute;
+    right: 20px;
+    top: 50%;
+    transform: translateY(-50%);
+    font-size: 21px;
+    color: #cccccc;
+}
+.earl-img{
+    float: left;
+    width: 310px;
+}
+.earl-img img{
+    margin-left: 78px;
+}
+.earl-content {
+    float: left;
+    width: 830px;
+}
+.earl-content p{
+    font-size: 24px;
+    font-weight: 200;
+    font-family: 'Roboto', sans-serif;
+    font-style: italic;
+    color: #999999;
+    line-height: 38px;
+    padding-top: 36px;
+    
+}
+.earl-content h3{
+    font-family: 'Kaushan Script', cursive; 
+    font-size: 24px;
+    font-weight: 400;
+    color: #333333;
+    padding-left: 71px;
+    position: relative;
+    padding-top: 10px;
+    
+}
+.earl-content h3:after{
+    position: absolute;
+    content: '';
+    top: 50%;
+    transform: translateY(-50%);
+    left: 0;
+    width: 60px;
+    height: 3px;
+    background: #f38181;
+}
+/*======================  client part css   ======================*/
+.client-bg{
+    background: url(../images/client.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    padding-top: 107px;
+    padding-bottom: 134px;
+    position: relative;
+}
+.client-bg:after {
+    position: absolute;
+    content: '';
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-image: linear-gradient( #f7f7f7,#e6e6e6);
+    opacity: 0.9;
+}
+.client-head{
+    text-align: center;
+    position: relative;
+    z-index: 999999;
+}
+.client-head  h2{
+    font-size: 24px;
+    font-weight: 400;
+     font-family: 'Kaushan Script', cursive; 
+    color: #333333;
+    padding-bottom: 24px;
+    
+}
+.client-head h3{
+     font-family: 'Montserrat', sans-serif; 
+    font-size: 30px;
+    font-weight: 700;
+    color: #333333;
+    text-transform: uppercase;
+    position: relative;
+    padding-bottom: 37px;
+}
+.client-head h3:after{
+    position: absolute;
+    content: '';
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 60px;
+    height: 3px;
+    background: #f38181;
+}
+.client-main{
+    width: 600px;
+    position: relative;
+    z-index: 9999999;
+    float: left;
+    padding-top: 80px;
+}
+.client-img{
+    float: left;
+    width: 175px;
+}
+.client-img img{
+    padding-left: 30px;
+}
+.client-info {
+    float: left;
+    width: 420px;
+}
+.client-info  h4{
+    font-size: 14px;
+    font-weight: 400;
+   font-family: 'Montserrat', sans-serif;
+    color: #333333;
+    padding-bottom: 10px;
+    text-transform: uppercase;
+    
+}
+.client-info h5{
+   font-family: 'Roboto', sans-serif;
+    font-size: 15px;
+    font-weight: 200;
+    color: #333333;
+
+    position: relative;
+    padding-bottom: 20px;
+}
+.client-info h5:after{
+    position: absolute;
+    content: '';
+    bottom: 0;
+    left: 0;
+    
+    width: 60px;
+    height: 3px;
+    background: #f38181;
+}
+.client-info p{
+    font-size: 15px;
+    font-weight: 400;
+   font-family: 'Roboto', sans-serif;
+    color: #999999;
+    padding: 0 20px;
+    padding-top: 21px;
+    
+}
+/*======================  blog part css   ======================*/
+.blog-bg{
+    padding-top: 112px;
+    padding-bottom: 120px;
+}
+.blog-head{
+    text-align: center;
+}
+.blog-head  h2{
+    font-size: 24px;
+    font-weight: 400;
+     font-family: 'Kaushan Script', cursive; 
+    color: #333333;
+    padding-bottom: 24px;
+    
+}
+.blog-head h3{
+     font-family: 'Montserrat', sans-serif; 
+    font-size: 30px;
+    font-weight: 700;
+    color: #333333;
+    text-transform: uppercase;
+    position: relative;
+    padding-bottom: 37px;
+}
+.blog-head h3:after{
+    position: absolute;
+    content: '';
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 60px;
+    height: 3px;
+    background: #f38181;
+}
+.blog-main{
+    width: 390px;
+    margin-left: 10px;
+    float: left;
+}
+.blog-main img{
+    margin-top: 45px;
+    margin-bottom: 21px;
+}
+.blog-content{
+      border-bottom:  1px solid #e5e5e5;
+}
+.blog-content spam{
+    font-size: 14px;
+    font-weight: 500;
+    font-family: 'Montserrat', sans-serif; 
+    color: #333333;
+    text-transform: uppercase;
+}
+.blog-content p{
+    font-size: 15px;
+    font-weight: 400;
+    font-family: 'Roboto', sans-serif;
+    color: #999999;
+    padding: 20px 0;
+}
+.blog-icon{
+    padding-top: 19px;
+    text-align: left;
+}
+.blog-icon i{
+     padding-left: 19px;
+    color: #95e1d3
+}
+.blog-icon spam{
+    font-size: 15px;
+    font-weight: 200;
+    font-family: 'Roboto', sans-serif;
+    font-style: italic;
+    color: #999999;
+  
+}
+/*======================  map part css   ======================*/
+.map-bg{
+   background: url(../images/map.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+   padding: 56px 0;  
+  
+}   
+.map-content{
+    text-align: center;
+}
+.map-content i{
+    font-size: 29px;
+    color: #f38181;
+}
+.map-content h3{
+    font-size: 24px;
+    font-weight: 700;
+    color: #f38181;
+     font-family: 'Montserrat', sans-serif; 
+    text-transform: uppercase;
+    padding-top: 14px;
+    position: relative;
+    padding-bottom: 22px;
+}
+
+.map-content h3:after{
+    position: absolute;
+    content: '';
+    bottom: 0;
+    left:50%;
+    transform: translateX(-50%);
+    width: 60px;
+    height: 3px;
+    background: #f38181;
+}
+/*======================  mogo part css   ======================*/
+
+.mogo-bg{
+    background: #f8f8f8;
+    padding-top: 75px;
+  padding-bottom: 25px;
+    text-align: center;
+}
+
+
+.mogo-cont{
+    width: 470px;
+    float: left;
+
+ 
+}
+.mogo-follow {
+    text-align: left;
+    border-bottom: 1px solid #e5e5e5;
+}
+.mogo-follow h2{
+    font-size: 46px;
+    font-weight: 700;
+    font-family: 'Montserrat', sans-serif;   
+    color: #cccccc;
+    padding-bottom: 34px;
+}
+.mogo-follow p{
+    font-size: 15px;
+    font-weight: 400;
+    color: #999999;
+    font-family: 'Roboto', sans-serif;
+    line-height: 22px;
+    padding: 0 2px;
+    padding-bottom: 45px;
+    
+}
+.mogo-follow spam{
+    font-size: 18px;
+    font-weight: 700;
+    font-family: 'Montserrat', sans-serif; 
+    color: #333333;
+    padding-bottom: 19px;
+}
+.mogo-follow h5{
+    display: inline-block;
+    font-size: 14px;
+    font-weight: 400;
+     font-family: 'Montserrat', sans-serif;
+    color: #333333;
+     padding-bottom: 19px;
+}
+.mogo-mail{
+    text-align: left;
+    padding-top: 15px;
+}
+.mogo-mail spam{
+    font-size: 15px;
+    font-weight: 200;
+    color: #999999;
+   font-family: 'Roboto', sans-serif;
+    font-style: italic;
+    padding-top: 15px;
+}
+.mogo-mail input{
+    font-size: 15px;
+    font-weight: 200;
+    color: #cccccc;
+    font-style: italic;
+     font-family: 'Roboto', sans-serif;  
+    padding: 12px;
+    padding-left: 15px;
+    padding-right: 100px;
+    border: 1px solid #e7e7e7;
+    margin-top: 35px;
+}
+.mogo-mail button{
+    font-size: 14px;
+    font-weight: 700;
+     font-family: 'Montserrat', sans-serif;
+    color:#fff;
+    padding: 10px 30px; 
+    background: #95e1d3;
+}
+.mogo-mail i{
+    padding: 0 8px;
+    font-size: 16px;
+    color: #95e1d3;
+}
+.mogo-blog{
+    width: 410px;
+    float: left;
+  
+}
+.mogo-blog-main{
+    float: left;
+
+}
+
+.mogo-blog h3{
+    font-size: 14px;
+    font-weight: 400;
+     font-family: 'Montserrat', sans-serif;
+    color: #333333;
+    text-transform: uppercase;
+    padding-bottom: 40px;
+    padding-left: 10px;
+}
+.mogo-blog-img{
+    float: left;
+    width: 120px;
+    margin-bottom: 40px;
+    margin-left: 10px;
+ 
+}
+.mogo-blog-img img{
+    width: 100%;
+}
+.mogo-blog-cont{
+    float: left;
+    width: 275px;
+    
+}
+.mogo-blog-cont p{
+    font-size: 12px;
+    font-weight: 400;
+    color: #333333;
+    font-family: 'Montserrat', sans-serif; 
+    padding: 0 20px;
+    text-transform: uppercase;
+    padding-top: 20px;
+}
+.mogo-blog-cont spam{
+    font-size: 13px;
+    font-weight: 200;
+    font-family: 'Roboto', sans-serif;
+    color: #999999;
+    padding-left: 20px;
+}
+.mogo-insta{
+    width: 310px;
+    float: left;
+     padding-bottom: 20px;
+}
+.mogo-insta h3{
+    font-size: 14px;
+    font-weight: 400;
+     font-family: 'Montserrat', sans-serif;
+    color: #333333;
+    text-transform: uppercase;
+    padding-bottom: 40px;
+   
+}
+
+.mogo-insta-img{
+    float: left;
+    padding-left: 2px;
+    padding-top: 2px;
+    width: 88px;
+}
+.mogo-insta-img img{
+    width: 100%;
+}
+.moga-img-text spam{
+    color: #333333;
+    font-size: 13px;
+    font-weight: 200;
+     font-family: 'Roboto', sans-serif;
+    font-style: italic;
+   
+}
+.mogo-border{
+    border-bottom: 1px solid #e5e5e5;
+    padding-bottom: 70px;
+}
+
+.mogo-bg p{
+    padding-top: 25px;
+    font-size: 14px;
+    font-weight: 400;
+     font-family: 'Montserrat', sans-serif; 
+    color: #333333;
+}
+.mogo-bg p spam{
+    color: #f38888;
+     font-size: 14px;
+    font-weight: 400;
+     font-family: 'Montserrat', sans-serif;
+}
+
+
+
+
+/*======================  back2top part css   ======================*/
+.back2top{
+    position: fixed;
+    right: 20px;
+    bottom: 20px;
+    display: none;
+}
+
+
+.back2top i{
+    width: 40px;
+    height: 40px;
+    background: #e88282;
+    text-align: center;
+    line-height: 40px;
+    font-size: 30px;
+    color: #eed78a;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*============= background-image: linear-gradient(red, yellow)   ========*/
+/*==== font-family: 'Kaushan Script', cursive; ===============*/
+/*==== font-family: 'Montserrat', sans-serif; ===============*/
+/*==== font-family: 'Roboto', sans-serif; ===============*/
+
+
+
+/*======================  menu part css   ======================*/
+/*======================  menu part css   ======================*/
+/*======================  menu part css   ======================*/
